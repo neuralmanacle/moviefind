@@ -1,3 +1,9 @@
 .main-wrapper {
   background: linear-gradient(to right, rgb(126, 38, 158), rgb(46, 7, 72));
 }
+
+.main-wrapper header h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 800;
+  font-size: 40px;
+}

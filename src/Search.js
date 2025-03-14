@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Search() {
+function Search({handleInput, SearchResult}) {
   return (
-    <div>
-        <input type="text" name="movie" className='w-50 p-2' placeholder='Search for a movie' />
+    <div className='search-input mt-3 mb-5'>
+        <input type="text" name="movie" className='w-50 p-2' placeholder='Search for a movie' onChange={handleInput} onKeyDown={SearchResult}></input>
     </div>
   )
 }
